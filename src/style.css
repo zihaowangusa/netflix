@@ -1,0 +1,36 @@
+h3 {
+  font-family: Lato;
+  color:red;
+}
+
+.mylist,.recommendation {
+   display:flex;
+}
+
+.image-wrapper {
+    position: relative;
+    margin: 10px;
+}
+
+.btn{
+  display: none;
+  position:absolute;
+  background-color: #4CAF50;
+  color: white;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  height:100%;
+  width:100%;
+}
+
+img:hover {
+    opacity:0.5;
+}
+
+img:hover + .btn, .btn:hover {
+  display: inline-block;
+}
